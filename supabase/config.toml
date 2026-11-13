@@ -1,0 +1,6 @@
+project_id = "kvjczrpkcwcgyxfxxxgs"
+
+# Authentication is performed inside the function through Supabase Auth /user.
+# The legacy gateway JWT verifier does not support the project's modern signing-key model.
+[functions.atitai-api]
+verify_jwt = false
